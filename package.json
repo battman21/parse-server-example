@@ -1,7 +1,7 @@
 {
   "name": "parse-server-example",
   "version": "1.4.0",
-  "description": "An example Parse API server using the parse-server module",
+  "description": "SH API",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -13,6 +13,7 @@
     "kerberos": "~0.0.x",
     "parse": "~1.8.0",
     "parse-server": "~2.2.2"
+	"cors": "*" 
   },
   "scripts": {
     "start": "node index.js"
